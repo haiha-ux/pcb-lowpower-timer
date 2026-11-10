@@ -250,9 +250,12 @@ Example: always on, sleeping, with a 1 ms wake every second at 140 µA (+0.14 µ
 - **Rotations:** the CPL applies JLCKicadTools' correction table (`tools/cpl_rotations_db.csv`, copied unchanged
   from github.com/matthewlai/JLCKicadTools, GPL-3.0) plus `tools/cpl_rotations_local.csv`; the longest matching
   pattern wins.
-  - Corrections applied: J1 +180°; SOT-23 parts (Q1, Q3, Q4, Q5, D1) −90°; U2 (TSSOP-20) +270°.
-  - No table entry exists for U1 (WSON-6), Y1, L1, BZ1 or the passives, so those go at 0°.
-  - **Check every part in JLC's placement preview before paying**, especially U1, BZ1 and Y1.
+  - Corrections applied: J1 +180°; SOT-23 parts (Q1, Q3, Q4, Q5, D1) −90°; U2 (TSSOP-20) +270°; U1 (WSON-6) +270°.
+  - U1's 270° is a local entry: the upstream table has none for WSON-6, but gives 270/−90 to every other SON package
+    it lists (VSON-8, USON-10, TDSON-8, WSON-8). That makes it the most likely value, not a confirmed one.
+  - No entry exists for Y1, L1, BZ1 or the passives, so those go at 0°.
+  - **Check every part in JLC's placement preview before paying**, especially U1, Y1 and BZ1. BZ1 is polarised:
+    its + lead must land on pad 1 (top-left).
 - Extended parts (one loading fee each): TPS61099, STM32L031, DMG2305UX, the 7 pF crystal, L1, the buzzer and the
   JST connector. Everything else is Basic or Preferred.
 
@@ -274,5 +277,5 @@ Example: always on, sleeping, with a 1 ms wake every second at 140 µA (+0.14 µ
 - The buzzer polarity on the footprint comes from the maker's drawing. The EasyEDA footprint numbers its pads
   differently, and I did not see which of its pads it assigns to +.
 - Efficiency below 10 µA load is an assumption (70 %); the datasheet curve stops at 10 µA.
-- CPL rotations for parts with no correction-table entry (see "Assembly").
+- CPL rotations for U1 (inferred) and for parts with no correction-table entry (see "Assembly").
 - No firmware is included; the power-off sequence and the VREFINT correction above are requirements for it.

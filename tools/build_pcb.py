@@ -368,18 +368,28 @@ def silk():
             continue
         c = fp.GetCourtyard(pcbnew.F_CrtYd).BBox()
         cx, cy = (c.GetLeft() + c.GetRight()) / 2e6, (c.GetTop() + c.GetBottom()) / 2e6
-        spots = [None, (cx, c.GetTop() / 1e6 - 0.7), (cx, c.GetBottom() / 1e6 + 0.7),
-                 (c.GetLeft() / 1e6 - 1.4, cy), (c.GetRight() / 1e6 + 1.4, cy)]
-        for sp in spots:
-            if sp:
-                ref.SetTextAngleDegrees(0)
-                ref.SetPosition(V(*sp))
-            bx = _bbox_mm(ref)
-            if free(bx):
-                placed.append(bx)
+        x0, y0, x1, y1 = c.GetLeft() / 1e6, c.GetTop() / 1e6, c.GetRight() / 1e6, c.GetBottom() / 1e6
+        spots = [None, (cx, y0 - 0.7), (cx, y1 + 0.7), (x0 - 1.4, cy), (x1 + 1.4, cy),
+                 (x0 - 1.2, y0 - 0.6), (x1 + 1.2, y0 - 0.6), (x0 - 1.2, y1 + 0.6), (x1 + 1.2, y1 + 0.6),
+                 (cx, y0 - 1.6), (cx, y1 + 1.6), (x0 - 2.4, cy), (x1 + 2.4, cy),
+                 (cx, y0 - 2.6), (cx, y1 + 2.6), (x0 - 1.0, y1 + 2.0), (x1 + 1.0, y1 + 2.0)]
+        done = False
+        for size in (SILK_H, 0.8):                  # 0.8 mm is still JLC's minimum text height
+            ref.SetTextSize(pcbnew.VECTOR2I(mm(size), mm(size)))
+            for sp in spots:
+                if sp:
+                    ref.SetTextAngleDegrees(0)
+                    ref.SetPosition(V(*sp))
+                bx = _bbox_mm(ref)
+                if free(bx):
+                    placed.append(bx)
+                    done = True
+                    break
+            if done:
                 break
-        else:
+        if not done:
             ref.SetVisible(False)
+            print("  no room for reference", fp.GetReference())
     pcbnew.SaveBoard(str(PCB), b)
     print("silk refs shown:", sum(fp.Reference().IsVisible() for fp in b.GetFootprints()), "| labels not placed:", skipped)
 
