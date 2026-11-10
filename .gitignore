@@ -1,0 +1,11 @@
+*.kicad_prl
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+tools/local/
+__pycache__/
+.konnect/
+reports_drc_*.json
+reports/pre_route.kicad_pcb
+reports/freerouting.log
