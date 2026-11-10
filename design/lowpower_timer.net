@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\USER\\Desktop\\test\\pcb-lowpower-timer\\lowpower_timer.kicad_sch")
-		(date "2026-11-10T15:52:58")
+		(date "2026-11-10T16:02:02")
 		(tool "Eeschema 10.0.8")
 		(sheet
 			(number "1")
@@ -61,6 +61,12 @@
 			(description "Buzzer, polarized")
 			(fields
 				(field
+					(name "JLC") "Extended")
+				(field
+					(name "LCSC") "C94599")
+				(field
+					(name "MPN") "MLT-8530")
+				(field
 					(name "Footprint") "lowpower_timer:Buzzer_Huaneng_MLT-8530")
 				(field
 					(name "Datasheet")
@@ -72,6 +78,18 @@
 				(lib "Device")
 				(part "Buzzer")
 				(description "Buzzer, polarized")
+			)
+			(property
+				(name "JLC")
+				(value "Extended")
+			)
+			(property
+				(name "LCSC")
+				(value "C94599")
+			)
+			(property
+				(name "MPN")
+				(value "MLT-8530")
 			)
 			(property
 				(name "Sheetname")
@@ -115,6 +133,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C19702")
+				(field
+					(name "MPN") "CL10A106KP8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -126,6 +150,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C19702")
+			)
+			(property
+				(name "MPN")
+				(value "CL10A106KP8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -169,6 +205,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C19702")
+				(field
+					(name "MPN") "CL10A106KP8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -180,6 +222,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C19702")
+			)
+			(property
+				(name "MPN")
+				(value "CL10A106KP8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -223,6 +277,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C19702")
+				(field
+					(name "MPN") "CL10A106KP8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -234,6 +294,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C19702")
+			)
+			(property
+				(name "MPN")
+				(value "CL10A106KP8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -277,6 +349,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C1525")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -288,6 +366,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C1525")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -331,6 +421,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C19666")
+				(field
+					(name "MPN") "CL10A475KO8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -342,6 +438,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C19666")
+			)
+			(property
+				(name "MPN")
+				(value "CL10A475KO8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -385,6 +493,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C15195")
+				(field
+					(name "MPN") "CL05B103KB5NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -396,6 +510,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C15195")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B103KB5NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -439,6 +565,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C52923")
+				(field
+					(name "MPN") "CL05A105KA5NQNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -450,6 +582,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C52923")
+			)
+			(property
+				(name "MPN")
+				(value "CL05A105KA5NQNC")
 			)
 			(property
 				(name "Sheetname")
@@ -493,6 +637,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C1525")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -504,6 +654,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C1525")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -547,6 +709,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Preferred")
+				(field
+					(name "LCSC") "C1576")
+				(field
+					(name "MPN") "0402CG6R8C500NT")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -558,6 +726,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Preferred")
+			)
+			(property
+				(name "LCSC")
+				(value "C1576")
+			)
+			(property
+				(name "MPN")
+				(value "0402CG6R8C500NT")
 			)
 			(property
 				(name "Sheetname")
@@ -601,6 +781,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Preferred")
+				(field
+					(name "LCSC") "C1576")
+				(field
+					(name "MPN") "0402CG6R8C500NT")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -612,6 +798,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Preferred")
+			)
+			(property
+				(name "LCSC")
+				(value "C1576")
+			)
+			(property
+				(name "MPN")
+				(value "0402CG6R8C500NT")
 			)
 			(property
 				(name "Sheetname")
@@ -655,6 +853,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C1525")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -666,6 +870,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C1525")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -710,6 +926,12 @@
 			(description "dual schottky barrier diode, common cathode")
 			(fields
 				(field
+					(name "JLC") "Preferred")
+				(field
+					(name "LCSC") "C22466350")
+				(field
+					(name "MPN") "BAT54C")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "http://www.diodes.com/_files/datasheets/ds11005.pdf")
@@ -720,6 +942,18 @@
 				(lib "Diode")
 				(part "BAT54C")
 				(description "dual schottky barrier diode, common cathode")
+			)
+			(property
+				(name "JLC")
+				(value "Preferred")
+			)
+			(property
+				(name "LCSC")
+				(value "C22466350")
+			)
+			(property
+				(name "MPN")
+				(value "BAT54C")
 			)
 			(property
 				(name "Sheetname")
@@ -766,6 +1000,12 @@
 			(description "Diode")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C81598")
+				(field
+					(name "MPN") "1N4148W")
+				(field
 					(name "Footprint") "Diode_SMD:D_SOD-123")
 				(field
 					(name "Datasheet")
@@ -777,6 +1017,18 @@
 				(lib "Device")
 				(part "D")
 				(description "Diode")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C81598")
+			)
+			(property
+				(name "MPN")
+				(value "1N4148W")
 			)
 			(property
 				(name "Sheetname")
@@ -820,6 +1072,12 @@
 			(description "Light emitting diode")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C2286")
+				(field
+					(name "MPN") "KT-0603R")
+				(field
 					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -831,6 +1089,18 @@
 				(lib "Device")
 				(part "LED")
 				(description "Light emitting diode")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C2286")
+			)
+			(property
+				(name "MPN")
+				(value "KT-0603R")
 			)
 			(property
 				(name "Sheetname")
@@ -874,6 +1144,12 @@
 			(description "Light emitting diode")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C2286")
+				(field
+					(name "MPN") "KT-0603R")
+				(field
 					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -885,6 +1161,18 @@
 				(lib "Device")
 				(part "LED")
 				(description "Light emitting diode")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C2286")
+			)
+			(property
+				(name "MPN")
+				(value "KT-0603R")
 			)
 			(property
 				(name "Sheetname")
@@ -1116,6 +1404,12 @@
 			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
+					(name "JLC") "Extended")
+				(field
+					(name "LCSC") "C295747")
+				(field
+					(name "MPN") "S2B-PH-SM4-TB(LF)(SN)")
+				(field
 					(name "Footprint") "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1127,6 +1421,18 @@
 				(lib "Connector_Generic")
 				(part "Conn_01x02")
 				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "JLC")
+				(value "Extended")
+			)
+			(property
+				(name "LCSC")
+				(value "C295747")
+			)
+			(property
+				(name "MPN")
+				(value "S2B-PH-SM4-TB(LF)(SN)")
 			)
 			(property
 				(name "Sheetname")
@@ -1236,6 +1542,12 @@
 			(description "Inductor")
 			(fields
 				(field
+					(name "JLC") "Extended")
+				(field
+					(name "LCSC") "C2046874")
+				(field
+					(name "MPN") "74404024022")
+				(field
 					(name "Footprint") "Inductor_SMD:L_1008_2520Metric")
 				(field
 					(name "Datasheet")
@@ -1247,6 +1559,18 @@
 				(lib "Device")
 				(part "L")
 				(description "Inductor")
+			)
+			(property
+				(name "JLC")
+				(value "Extended")
+			)
+			(property
+				(name "LCSC")
+				(value "C2046874")
+			)
+			(property
+				(name "MPN")
+				(value "74404024022")
 			)
 			(property
 				(name "Sheetname")
@@ -1287,20 +1611,38 @@
 			(ref "Q1")
 			(value "DMG2305UX")
 			(footprint "Package_TO_SOT_SMD:SOT-23")
-			(datasheet "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
-			(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			(datasheet "https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf")
+			(description "P-MOSFET, RDS(on) 200 mOhm max at VGS -1.8 V (DMG2305UX ds p.2). AO3401A symbol used for its SOT-23 G1/S2/D3 pinout")
 			(fields
+				(field
+					(name "JLC") "Extended")
+				(field
+					(name "LCSC") "C150470")
+				(field
+					(name "MPN") "DMG2305UX-7")
 				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
-					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf")
 				(field
-					(name "Description") "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+					(name "Description") "P-MOSFET, RDS(on) 200 mOhm max at VGS -1.8 V (DMG2305UX ds p.2). AO3401A symbol used for its SOT-23 G1/S2/D3 pinout")
 			)
 			(libsource
 				(lib "Transistor_FET")
 				(part "AO3401A")
 				(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "JLC")
+				(value "Extended")
+			)
+			(property
+				(name "LCSC")
+				(value "C150470")
+			)
+			(property
+				(name "MPN")
+				(value "DMG2305UX-7")
 			)
 			(property
 				(name "Sheetname")
@@ -1348,6 +1690,12 @@
 			(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C15127")
+				(field
+					(name "MPN") "AO3401A")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
@@ -1358,6 +1706,18 @@
 				(lib "Transistor_FET")
 				(part "AO3401A")
 				(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C15127")
+			)
+			(property
+				(name "MPN")
+				(value "AO3401A")
 			)
 			(property
 				(name "Sheetname")
@@ -1405,6 +1765,12 @@
 			(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C8545")
+				(field
+					(name "MPN") "2N7002")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
@@ -1415,6 +1781,18 @@
 				(lib "Transistor_FET")
 				(part "2N7002")
 				(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C8545")
+			)
+			(property
+				(name "MPN")
+				(value "2N7002")
 			)
 			(property
 				(name "Sheetname")
@@ -1462,6 +1840,12 @@
 			(description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C20526")
+				(field
+					(name "MPN") "MMBT3904(RANGE:100-300)")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf")
@@ -1472,6 +1856,18 @@
 				(lib "Transistor_BJT")
 				(part "MMBT3904")
 				(description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C20526")
+			)
+			(property
+				(name "MPN")
+				(value "MMBT3904(RANGE:100-300)")
 			)
 			(property
 				(name "Sheetname")
@@ -1518,6 +1914,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C25741")
+				(field
+					(name "MPN") "0402WGF1003TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -1529,6 +1931,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C25741")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1003TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -1572,6 +1986,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C22976")
+				(field
+					(name "MPN") "0603WAF2004T5E")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1583,6 +2003,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C22976")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF2004T5E")
 			)
 			(property
 				(name "Sheetname")
@@ -1626,6 +2058,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C23024")
+				(field
+					(name "MPN") "0603WAF3003T5E")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1637,6 +2075,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C23024")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF3003T5E")
 			)
 			(property
 				(name "Sheetname")
@@ -1680,6 +2130,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C22935")
+				(field
+					(name "MPN") "0603WAF1004T5E")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1691,6 +2147,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C22935")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF1004T5E")
 			)
 			(property
 				(name "Sheetname")
@@ -1734,6 +2202,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C26083")
+				(field
+					(name "MPN") "0402WGF1004TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -1745,6 +2219,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C26083")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1004TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -1788,6 +2274,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C22976")
+				(field
+					(name "MPN") "0603WAF2004T5E")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1799,6 +2291,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C22976")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF2004T5E")
 			)
 			(property
 				(name "Sheetname")
@@ -1842,6 +2346,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C25741")
+				(field
+					(name "MPN") "0402WGF1003TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -1853,6 +2363,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C25741")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1003TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -1896,6 +2418,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C25744")
+				(field
+					(name "MPN") "0402WGF1002TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -1907,6 +2435,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C25744")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1002TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -1950,6 +2490,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C26083")
+				(field
+					(name "MPN") "0402WGF1004TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -1961,6 +2507,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C26083")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1004TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2004,6 +2562,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C26083")
+				(field
+					(name "MPN") "0402WGF1004TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -2015,6 +2579,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C26083")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1004TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2058,6 +2634,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C25741")
+				(field
+					(name "MPN") "0402WGF1003TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -2069,6 +2651,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C25741")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1003TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2112,6 +2706,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C25741")
+				(field
+					(name "MPN") "0402WGF1003TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -2123,6 +2723,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C25741")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1003TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2166,6 +2778,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C25117")
+				(field
+					(name "MPN") "0402WGF4700TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -2177,6 +2795,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C25117")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF4700TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2220,6 +2850,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C25741")
+				(field
+					(name "MPN") "0402WGF1003TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -2231,6 +2867,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C25741")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1003TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2274,6 +2922,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C11702")
+				(field
+					(name "MPN") "0402WGF1001TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -2285,6 +2939,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C11702")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1001TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2328,6 +2994,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C11702")
+				(field
+					(name "MPN") "0402WGF1001TCE")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -2339,6 +3011,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C11702")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1001TCE")
 			)
 			(property
 				(name "Sheetname")
@@ -2382,6 +3066,12 @@
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
+					(name "JLC") "Basic")
+				(field
+					(name "LCSC") "C318884")
+				(field
+					(name "MPN") "TS-1187A-B-A-B")
+				(field
 					(name "Footprint") "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A")
 				(field
 					(name "Datasheet")
@@ -2393,6 +3083,18 @@
 				(lib "Switch")
 				(part "SW_Push")
 				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "JLC")
+				(value "Basic")
+			)
+			(property
+				(name "LCSC")
+				(value "C318884")
+			)
+			(property
+				(name "MPN")
+				(value "TS-1187A-B-A-B")
 			)
 			(property
 				(name "Sheetname")
@@ -2433,6 +3135,12 @@
 			(description "Boost Converter, 0.7-5.5V Input Voltage, 1A Switch Current, Adjustable 1.8-5.5V Output Voltage, WSON-6")
 			(fields
 				(field
+					(name "JLC") "Extended")
+				(field
+					(name "LCSC") "C2842395")
+				(field
+					(name "MPN") "TPS61099DRVR")
+				(field
 					(name "Footprint") "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/gpn/TPS61099")
@@ -2443,6 +3151,18 @@
 				(lib "Regulator_Switching")
 				(part "TPS61099DRV")
 				(description "Boost Converter, 0.7-5.5V Input Voltage, 1A Switch Current, Adjustable 1.8-5.5V Output Voltage, WSON-6")
+			)
+			(property
+				(name "JLC")
+				(value "Extended")
+			)
+			(property
+				(name "LCSC")
+				(value "C2842395")
+			)
+			(property
+				(name "MPN")
+				(value "TPS61099DRVR")
 			)
 			(property
 				(name "Sheetname")
@@ -2502,6 +3222,12 @@
 			(description "STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32 MHz, 1.65-3.6V, 15 GPIO, TSSOP20")
 			(fields
 				(field
+					(name "JLC") "Extended")
+				(field
+					(name "LCSC") "C115208")
+				(field
+					(name "MPN") "STM32L031F6P6")
+				(field
 					(name "Footprint") "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
 				(field
 					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32l031f6.pdf")
@@ -2512,6 +3238,18 @@
 				(lib "MCU_ST_STM32L0")
 				(part "STM32L031F6Px")
 				(description "STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32 MHz, 1.65-3.6V, 15 GPIO, TSSOP20")
+			)
+			(property
+				(name "JLC")
+				(value "Extended")
+			)
+			(property
+				(name "LCSC")
+				(value "C115208")
+			)
+			(property
+				(name "MPN")
+				(value "STM32L031F6P6")
 			)
 			(property
 				(name "Sheetname")
@@ -2609,6 +3347,12 @@
 			(description "Two pin crystal")
 			(fields
 				(field
+					(name "JLC") "Extended")
+				(field
+					(name "LCSC") "C48615")
+				(field
+					(name "MPN") "Q13FC13500002")
+				(field
 					(name "Footprint") "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
 				(field
 					(name "Datasheet")
@@ -2620,6 +3364,18 @@
 				(lib "Device")
 				(part "Crystal")
 				(description "Two pin crystal")
+			)
+			(property
+				(name "JLC")
+				(value "Extended")
+			)
+			(property
+				(name "LCSC")
+				(value "C48615")
+			)
+			(property
+				(name "MPN")
+				(value "Q13FC13500002")
 			)
 			(property
 				(name "Sheetname")
@@ -3436,7 +4192,7 @@
 		(net
 			(code "1")
 			(name "/+3V3")
-			(class "Default")
+			(class "PWR_3V3")
 			(node
 				(ref "BZ1")
 				(pin "1")
@@ -3512,7 +4268,7 @@
 		(net
 			(code "2")
 			(name "/BAT_RAW")
-			(class "Default")
+			(class "PWR_BAT_RAW")
 			(node
 				(ref "J1")
 				(pin "1")
@@ -3608,7 +4364,7 @@
 		(net
 			(code "7")
 			(name "/BUZ_N")
-			(class "Default")
+			(class "PWR_BUZ_N")
 			(node
 				(ref "BZ1")
 				(pin "2")
@@ -3704,7 +4460,7 @@
 		(net
 			(code "12")
 			(name "/GND")
-			(class "Default")
+			(class "PWR_GND")
 			(node
 				(ref "C1")
 				(pin "2")
@@ -4054,7 +4810,7 @@
 		(net
 			(code "24")
 			(name "/SW_NODE")
-			(class "Default")
+			(class "PWR_SW_NODE")
 			(node
 				(ref "L1")
 				(pin "2")
@@ -4097,7 +4853,7 @@
 		(net
 			(code "26")
 			(name "/VIN")
-			(class "Default")
+			(class "PWR_VIN")
 			(node
 				(ref "C1")
 				(pin "1")
